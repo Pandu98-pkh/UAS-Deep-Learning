@@ -432,6 +432,13 @@ Chapter 19: 🚀 Production Deployment
 <td width="50%">
 
 #### 📊 **Chapter 1: The Machine Learning Landscape**
+
+> **🎯 Tujuan Chapter**: Membangun fondasi pemahaman Machine Learning dari nol hingga mampu memahami ekosistem ML secara menyeluruh
+> 
+> **📚 Deskripsi**: Bab ini adalah pintu gerbang menuju dunia Machine Learning. Anda akan mempelajari konsep-konsep fundamental yang menjadi dasar dari semua teknik ML modern. Mulai dari definisi dasar hingga tantangan real-world yang dihadapi data scientist setiap hari.
+> 
+> **💡 Key Takeaways**: Setelah menyelesaikan chapter ini, Anda akan memahami perbedaan antara berbagai jenis learning, mampu mengidentifikasi kapan menggunakan teknik tertentu, dan mengerti mengapa ML begitu powerful namun juga challenging.
+
 ```
 1.1 🧠 Apa itu Machine Learning?
     ├── Definisi dan konsep dasar
@@ -458,6 +465,13 @@ Chapter 19: 🚀 Production Deployment
 ```
 
 #### 🏠 **Chapter 2: End-to-End ML Project**
+
+> **🎯 Tujuan Chapter**: Menguasai seluruh pipeline Machine Learning dari data mentah hingga model production-ready
+> 
+> **📚 Deskripsi**: Bab ini adalah jantung dari pembelajaran praktis ML. Anda akan mengikuti journey lengkap seorang data scientist dalam menyelesaikan proyek real-world menggunakan California Housing dataset. Setiap langkah dijelaskan detail dengan best practices industry.
+> 
+> **💡 Key Takeaways**: Mampu menjalankan proyek ML end-to-end secara mandiri, memahami setiap tahapan dari business understanding hingga deployment, dan menguasai tools essential seperti Pandas, Scikit-Learn untuk data pipeline.
+
 ```
 2.1 🎯 Look at the Big Picture
     ├── Frame the problem
@@ -503,6 +517,13 @@ Chapter 19: 🚀 Production Deployment
 <td width="50%">
 
 #### 🔢 **Chapter 3: Classification**
+
+> **🎯 Tujuan Chapter**: Menguasai teknik klasifikasi dari binary hingga multi-class dengan evaluasi metrics yang tepat
+> 
+> **📚 Deskripsi**: Bab ini fokus pada salah satu task paling common dalam ML - Classification. Menggunakan MNIST dataset yang iconic, Anda akan belajar membangun classifier yang robust dan memahami berbagai metrics untuk evaluasi performa. Dari confusion matrix hingga ROC curves, semua dijelaskan dengan visualisasi yang menarik.
+> 
+> **💡 Key Takeaways**: Mampu membangun classifier untuk berbagai jenis problem, memahami trade-off antara precision dan recall, dan dapat melakukan error analysis untuk improvement model.
+
 ```
 3.1 🎯 MNIST Dataset
     ├── Loading MNIST
@@ -531,6 +552,13 @@ Chapter 19: 🚀 Production Deployment
 ```
 
 #### 🎯 **Chapter 4: Training Models**
+
+> **🎯 Tujuan Chapter**: Memahami matematika di balik ML algorithms dan teknik optimasi untuk training yang efektif
+> 
+> **📚 Deskripsi**: Bab ini mengangkat hood dari ML algorithms dan menunjukkan bagaimana model benar-benar belajar. Dari linear regression sederhana hingga gradient descent yang complex, Anda akan memahami inner workings dari training process. Essential untuk yang ingin menjadi ML engineer yang handal.
+> 
+> **💡 Key Takeaways**: Memahami bagaimana model di-train secara matematis, dapat mengimplementasi algoritma dari scratch, dan mampu troubleshoot training issues seperti overfitting/underfitting.
+
 ```
 4.1 📈 Linear Regression
     ├── Normal equation
@@ -570,7 +598,51 @@ Chapter 19: 🚀 Production Deployment
 <tr>
 <td width="50%">
 
+#### ⚡ **Chapter 5: Support Vector Machines**
+
+> **🎯 Tujuan Chapter**: Menguasai salah satu algoritma ML paling powerful dan elegant untuk classification dan regression
+> 
+> **📚 Deskripsi**: Support Vector Machines adalah salah satu algoritma ML yang paling mathematically beautiful dan robust. Bab ini akan mengajarkan Anda bagaimana SVM dapat mengatasi non-linear problems menggunakan kernel tricks, dan mengapa SVM sering menjadi pilihan terbaik untuk dataset dengan dimensi tinggi dan complex decision boundaries.
+> 
+> **💡 Key Takeaways**: Memahami konsep margin maximization dan support vectors, menguasai berbagai kernel functions (linear, polynomial, RBF), mampu mengaplikasikan SVM untuk both classification dan regression tasks, dan dapat melakukan optimal hyperparameter tuning untuk performa maksimal.
+
+```
+5.1 🎯 Linear SVM Classification
+    ├── Large margin classification
+    ├── Soft margin classification
+    ├── Quadratic programming problem
+    └── Dual problem formulation
+
+5.2 🔧 Nonlinear SVM Classification
+    ├── Polynomial features
+    ├── Polynomial kernel
+    ├── Similarity features
+    └── Gaussian RBF kernel
+
+5.3 📊 SVM Regression
+    ├── Linear SVM regression
+    ├── Nonlinear SVM regression
+    ├── Online SVMs
+    └── Implementation with Scikit-Learn
+
+5.4 ⚙️ Under the Hood
+    ├── Decision function and predictions
+    ├── Training algorithms
+    ├── Kernel trick mathematical foundation
+    └── Performance optimization tips
+```
+
+</td>
+<td width="50%">
+
 #### 🌳 **Chapter 6: Decision Trees**
+
+> **🎯 Tujuan Chapter**: Memahami salah satu algoritma ML yang paling interpretable dan menjadi building block untuk ensemble methods
+> 
+> **📚 Deskripsi**: Decision Trees adalah algoritma yang sangat intuitif karena mirroring human decision-making process. Bab ini akan mengajarkan Anda bagaimana trees membuat decisions, mengapa mereka prone to overfitting, dan bagaimana mengontrolnya melalui regularization techniques.
+> 
+> **💡 Key Takeaways**: Mampu membangun dan visualisasi decision trees, memahami feature importance, menguasai teknik pruning untuk menghindari overfitting, dan memahami kapan menggunakan trees vs algoritma lain.
+
 ```
 6.1 🌿 Training and Visualizing Decision Tree
     ├── Making predictions
@@ -595,6 +667,13 @@ Chapter 19: 🚀 Production Deployment
 ```
 
 #### 🌲 **Chapter 7: Ensemble Learning**
+
+> **🎯 Tujuan Chapter**: Menguasai teknik ensemble yang mengombinasikan multiple models untuk performa superior
+> 
+> **📚 Deskripsi**: "Wisdom of crowds" dalam ML! Bab ini mengajarkan bagaimana mengombinasikan multiple weak learners menjadi strong learner. Dari voting classifiers hingga advanced boosting algorithms, Anda akan belajar teknik yang digunakan dalam winning solutions dari ML competitions.
+> 
+> **💡 Key Takeaways**: Memahami konsep ensemble diversity, mampu mengimplementasi bagging dan boosting, menguasai Random Forest dan XGBoost, serta dapat membangun custom ensemble methods untuk use case spesifik.
+
 ```
 7.1 🗳️ Voting Classifiers
     ├── Hard voting classifier
@@ -620,6 +699,13 @@ Chapter 19: 🚀 Production Deployment
 ```
 
 #### 📉 **Chapter 8: Dimensionality Reduction**
+
+> **🎯 Tujuan Chapter**: Mengatasi curse of dimensionality dan menguasai teknik untuk visualisasi high-dimensional data
+> 
+> **📚 Deskripsi**: Ketika data memiliki hundreds atau thousands of features, traditional ML algorithms mulai struggle. Bab ini mengajarkan teknik powerful untuk reducing dimensionality sambil preserving informasi penting. Essential untuk working dengan real-world big data.
+> 
+> **💡 Key Takeaways**: Memahami curse of dimensionality, menguasai PCA dan kernel PCA, mampu menggunakan t-SNE untuk visualisasi, dan dapat memilih teknik dimensionality reduction yang tepat untuk different use cases.
+
 ```
 8.1 🎯 Curse of Dimensionality
     ├── High-dimensional datasets
@@ -649,6 +735,13 @@ Chapter 19: 🚀 Production Deployment
 <td width="50%">
 
 #### 🔍 **Chapter 9: Unsupervised Learning**
+
+> **🎯 Tujuan Chapter**: Menguasai teknik untuk menemukan hidden patterns dalam data tanpa labels
+> 
+> **📚 Deskripsi**: Unsupervised learning adalah seni menemukan struktur tersembunyi dalam data. Bab ini mengcover clustering untuk customer segmentation, anomaly detection untuk fraud detection, dan density estimation untuk understanding data distributions. Critical untuk exploratory data analysis.
+> 
+> **💡 Key Takeaways**: Mampu melakukan customer segmentation menggunakan clustering, mendeteksi anomalies dalam data, memahami density-based algorithms, dan dapat mengaplikasikan unsupervised techniques untuk real business problems.
+
 ```
 9.1 🎯 K-Means Clustering
     ├── K-means algorithm
@@ -691,6 +784,13 @@ Chapter 19: 🚀 Production Deployment
 <td width="50%">
 
 #### 🧠 **Chapter 10: Neural Networks with Keras**
+
+> **🎯 Tujuan Chapter**: Memasuki dunia Neural Networks dan Deep Learning dengan framework Keras yang user-friendly
+> 
+> **📚 Deskripsi**: Ini adalah gateway menuju Deep Learning! Bab ini memperkenalkan konsep neural networks dari biological inspiration hingga implementasi praktis menggunakan Keras. Anda akan membangun first neural network dan memahami mengapa deep learning begitu powerful untuk complex problems.
+> 
+> **💡 Key Takeaways**: Memahami arsitektur neural networks, menguasai Keras APIs (Sequential, Functional, Subclassing), mampu fine-tune hyperparameters untuk optimal performance, dan siap untuk advanced deep learning topics.
+
 ```
 10.1 🔄 From Biological to Artificial Neurons
      ├── Biological motivation
@@ -718,6 +818,13 @@ Chapter 19: 🚀 Production Deployment
 ```
 
 #### 🎓 **Chapter 11: Training Deep Neural Networks**
+
+> **🎯 Tujuan Chapter**: Mengatasi challenges dalam training deep networks dan menguasai advanced techniques untuk stable training
+> 
+> **📚 Deskripsi**: Deep networks powerful tapi tricky untuk di-train. Bab ini membahas common problems seperti vanishing gradients, overfitting, dan slow training, beserta solutions yang telah proven effective. Essential untuk building production-ready deep learning models.
+> 
+> **💡 Key Takeaways**: Memahami dan mengatasi vanishing/exploding gradients, menguasai batch normalization dan dropout, mampu implement transfer learning, dan menguasai advanced optimizers untuk faster convergence.
+
 ```
 11.1 🌊 Vanishing/Exploding Gradients
      ├── Glorot and He initialization
@@ -747,6 +854,13 @@ Chapter 19: 🚀 Production Deployment
 <td width="50%">
 
 #### 🔧 **Chapter 12: Custom Models with TensorFlow**
+
+> **🎯 Tujuan Chapter**: Menguasai low-level TensorFlow untuk building custom architectures dan advanced training loops
+> 
+> **📚 Deskripsi**: Ketika high-level APIs tidak cukup, Anda perlu turun ke level yang lebih dalam. Bab ini mengajarkan TensorFlow's core APIs untuk building custom layers, models, loss functions, dan training loops. Essential untuk research dan advanced applications.
+> 
+> **💡 Key Takeaways**: Menguasai TensorFlow's low-level operations, mampu membuat custom layers dan models, memahami automatic differentiation, dan dapat implement cutting-edge research papers from scratch.
+
 ```
 12.1 🛠️ TensorFlow's Lower-Level API
      ├── Tensors and operations
@@ -780,6 +894,13 @@ Chapter 19: 🚀 Production Deployment
 <td width="50%">
 
 #### 📊 **Chapter 13: Loading and Preprocessing Data**
+
+> **🎯 Tujuan Chapter**: Menguasai efficient data pipeline untuk training models dengan large-scale datasets
+> 
+> **📚 Deskripsi**: Data is the fuel of ML, tapi loading dan preprocessing large datasets bisa jadi bottleneck. Bab ini mengajarkan tf.data API untuk building efficient data pipelines yang dapat handle terabytes of data dengan optimal memory usage dan parallel processing.
+> 
+> **💡 Key Takeaways**: Menguasai tf.data untuk efficient data loading, memahami TFRecord format untuk large datasets, mampu implement complex preprocessing pipelines, dan optimize data pipeline untuk maximum training speed.
+
 ```
 13.1 📂 Data API
      ├── Chaining transformations
@@ -804,6 +925,13 @@ Chapter 19: 🚀 Production Deployment
 ```
 
 #### 👁️ **Chapter 14: Deep Computer Vision Using CNNs**
+
+> **🎯 Tujuan Chapter**: Menguasai Convolutional Neural Networks untuk image recognition dan computer vision tasks
+> 
+> **📚 Deskripsi**: CNNs revolutionized computer vision! Bab ini mengajarkan arsitektur CNN dari LeNet hingga modern architectures seperti ResNet dan Xception. Anda akan build image classifiers, object detectors, dan memahami mengapa CNN begitu effective untuk visual tasks.
+> 
+> **💡 Key Takeaways**: Memahami convolution operations dan pooling, menguasai famous CNN architectures, mampu implement transfer learning untuk image tasks, dan dapat build end-to-end computer vision applications.
+
 ```
 14.1 🏗️ Visual Cortex Architecture
      ├── Convolutional layer
@@ -835,6 +963,13 @@ Chapter 19: 🚀 Production Deployment
 <td width="50%">
 
 #### 📝 **Chapter 15: Processing Sequences Using RNNs**
+
+> **🎯 Tujuan Chapter**: Menguasai Recurrent Neural Networks untuk sequential data seperti time series dan text
+> 
+> **📚 Deskripsi**: Sequential data everywhere! Dari stock prices hingga natural language, banyak data memiliki temporal dependencies. Bab ini mengajarkan RNNs, LSTMs, dan GRUs untuk modeling sequential patterns, serta 1D CNNs sebagai alternative approach.
+> 
+> **💡 Key Takeaways**: Memahami recurrent connections dan memory cells, menguasai LSTM/GRU untuk long sequences, mampu build time series forecasting models, dan memahami kapan menggunakan RNNs vs CNNs untuk sequences.
+
 ```
 15.1 🔄 Recurrent Neurons and Layers
      ├── Memory cells
@@ -855,6 +990,13 @@ Chapter 19: 🚀 Production Deployment
 ```
 
 #### 🗣️ **Chapter 16: Natural Language Processing**
+
+> **🎯 Tujuan Chapter**: Menguasai NLP dengan RNNs, attention mechanisms, dan introduction ke Transformer architecture
+> 
+> **📚 Deskripsi**: NLP adalah one of the most exciting areas dalam AI! Bab ini mengcover text generation, sentiment analysis, dan revolutionary attention mechanisms yang menjadi foundation untuk modern NLP models seperti BERT dan GPT.
+> 
+> **💡 Key Takeaways**: Mampu build text generation models, menguasai sentiment analysis, memahami attention mechanisms dan their applications, serta introduction ke Transformer architecture yang mendominasi modern NLP.
+
 ```
 16.1 📝 Generating Text Using RNNs
      ├── Creating training dataset
@@ -889,6 +1031,13 @@ Chapter 19: 🚀 Production Deployment
 <td width="50%">
 
 #### 🎨 **Chapter 17: Autoencoders and GANs**
+
+> **🎯 Tujuan Chapter**: Menguasai generative models untuk creating new data dan representation learning
+> 
+> **📚 Deskripsi**: Generative AI is the future! Bab ini mengcover autoencoders untuk dimensionality reduction dan denoising, Variational Autoencoders untuk generating new data, dan GANs untuk creating realistic images. Foundation untuk understanding modern generative AI.
+> 
+> **💡 Key Takeaways**: Memahami encoder-decoder architectures, menguasai VAEs untuk controlled generation, mampu implement GANs untuk image generation, dan memahami applications dari generative models dalam real-world scenarios.
+
 ```
 17.1 🔄 Efficient Data Representations
      ├── Performing PCA with undercomplete autoencoder
@@ -915,6 +1064,13 @@ Chapter 19: 🚀 Production Deployment
 ```
 
 #### 🎮 **Chapter 18: Reinforcement Learning**
+
+> **🎯 Tujuan Chapter**: Menguasai Reinforcement Learning untuk building agents yang dapat learn from interaction dengan environment
+> 
+> **📚 Deskripsi**: RL adalah paradigma learning yang different dari supervised/unsupervised learning. Agents learn melalui trial-and-error, receiving rewards atau penalties. Bab ini mengcover dari basic policy search hingga advanced deep RL algorithms yang dapat master complex games.
+> 
+> **💡 Key Takeaways**: Memahami Markov Decision Processes, menguasai Q-learning dan policy gradients, mampu implement Deep Q-Networks (DQN), dan dapat build RL agents untuk various environments seperti games dan robotics.
+
 ```
 18.1 🎯 Learning to Optimize Rewards
      ├── Policy search
@@ -945,6 +1101,13 @@ Chapter 19: 🚀 Production Deployment
 <td width="50%">
 
 #### 🚀 **Chapter 19: Training and Deploying TensorFlow Models at Scale**
+
+> **🎯 Tujuan Chapter**: Menguasai production deployment, scaling, dan MLOps untuk real-world ML applications
+> 
+> **📚 Deskripsi**: Moving from prototype ke production adalah crucial step! Bab ini mengcover TensorFlow Serving untuk model deployment, TensorFlow Lite untuk mobile/edge deployment, distributed training untuk large models, dan monitoring untuk production systems.
+> 
+> **💡 Key Takeaways**: Mampu deploy models ke production menggunakan TF Serving, optimize models untuk mobile devices, implement distributed training untuk large-scale datasets, dan understand MLOps practices untuk maintaining ML systems.
+
 ```
 19.1 🌐 Serving TensorFlow Models
      ├── Using TensorFlow Serving
@@ -1594,9 +1757,8 @@ MLOps Pipeline:
 
 ### 📧 **CONTACT & SUPPORT**
 
-[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:your-email@example.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![Twitter](https://img.shields.io/badge/Twitter-Follow-1da1f2?style=for-the-badge&logo=twitter)](https://twitter.com/yourhandle)
+[![Email](https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail)](mailto:pandukayahakiki@student.telkomuniversity.ac.id)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/pandukayahakiki)
 
 ---
 
